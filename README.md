@@ -7,7 +7,7 @@ Answer: The naked_twins function identifies any naked twins for each unit, and r
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-Answer: The algorithm first appends the two main diagonals to unitlist. The two main diagonals therefore are treated as units in the same way as rows, cols, and 3x3 boxes. The functions eliminate(), only_choice(), naked_twins(), and search() treat the two main diagonal units as constraints.
+Answer: The algorithm first appends the two main diagonals to unitlist. The two main diagonals therefore are treated as units in the same way as rows, cols, and 3x3 boxes. Functions with values as an argument will treat the two main diagonal units as constraints.
 
 
 ### Install
